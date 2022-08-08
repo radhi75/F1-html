@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cadetblue;
+    font-family: 'Pacifico', cursive;
+    
+}
+header{
+    background-color: aquamarine;
+}
+#navbar>nav>a{
+    text-decoration: none;
+    color: blue;
+}
+#navbar>nav>a:hover{
+    color: red;
+}
+#resume{
+    background-color: blueviolet;
+    font-size: larger;
+   
+   
+}
+
+img:first-of-type{
+    margin: 0px 0px 0px 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+}
+#about{
+    background-color: yellow;
+    text-align: center;
+    margin: 50px;
+}
+#work{
+    background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.image:nth-child(1) {
+    width: 200px;
+    height: 300px;
+   background-color: chartreuse;
+}
+.image:nth-child(2){
+   width:200px;
+   height: 300px; 
+   background-color: crimson;  
+}
+.image:nth-child(2):hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+.image:nth-child(3) {
+    width: 200px;
+    height: 300px;
+    background-color: darkorange;
+}
+footer{
+    background-color: coral;
+}
+table{
+    border: 1px solid black;
+    margin: 30px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color:darkred;
+    background-color: darkseagreen;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: aquamarine;
+}
